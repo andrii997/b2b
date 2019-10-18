@@ -1,0 +1,149 @@
+@media (max-width: 1440px) {
+	.banner {
+		background: #0E2439 url(../img/tree.png) no-repeat center 80px;
+		-webkit-background-size: 90%;
+		background-size: 90%;
+	}
+	.banner:before {
+		width: 100px;
+	}
+}
+
+@media (max-width: 1200px) {
+.banner h1 {
+	font-size: 50px;
+}
+.banner a.btn {
+	padding: 15px 40px;
+}
+
+.banner {
+	background: #0E243B url(../img/tree.png) no-repeat -120px 90px;
+	-webkit-background-size: 115%;
+	background-size: 115%;
+}
+.banner:before {
+	display: none;
+}
+
+
+}
+
+@media (max-width: 992px) {
+.partner a.btn {
+	margin-bottom: 30px;
+}
+.earnings .item .container-img {
+	max-width: 100px;
+}
+.earnings .item .item-title {
+	font-size: 14px;
+}
+.why .title {
+	font-size: 28px;
+}
+.why .subtitle {
+	font-size: 14px;
+}
+.earnings .title {
+	font-size: 32px;
+}
+.earnings .descr {
+	font-size: 16px;
+}
+.partner .text {
+	font-size: 14px;
+}
+}
+
+@media (max-width: 768px) {
+.header .header-nav ul li {
+	margin-left: 15px;
+}
+.header .header-nav ul li:first-child {
+	margin-left: 0;
+}
+.banner h1 {
+	font-size: 42px;
+}
+.banner a.btn {
+	font-size: 16px;
+	margin-right: 15px;
+	padding: 14px 35px;
+}
+.about h2.title {
+	font-size: 38px;
+}
+.about .text {
+	margin-bottom: 50px;
+}
+.about .container-img {
+	margin: 0 auto;
+	display: block;
+}
+.why {
+	background: #0E2439;
+}
+.why .title {
+	font-size: 26px;
+}
+.why .text-right .item {
+	text-align: left;
+	justify-content: flex-start;
+}
+.why .text-right .item .container-img {
+	order: -1;
+	margin-left: 0;
+	margin-right: 15px;
+}
+.earnings .title {
+	font-size: 26px;
+}
+.earnings .item {
+	margin-bottom: 30px;
+}
+.earnings .item .container-img {
+	max-width: 90px;
+}
+.earnings .item .container-img {
+	margin-bottom: 15px;
+}
+.partner .title {
+	font-size: 28px;
+}
+.partner .subtitle {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.partner a.btn {
+	font-size: 16px;
+	padding: 14px 35px;
+	margin-top: 20px;
+}
+.banner {
+	background: #0E243B url(../img/tree.png) no-repeat -100px 100px;
+	-webkit-background-size: 125%;
+	background-size: 125%;
+}
+
+}
+
+@media (max-width: 480px) {
+	.banner {
+		background: #0E243B;
+	}
+	.header .header-nav {
+		display: none;
+	}
+	.header .header__menu {
+		display: flex;
+	}
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

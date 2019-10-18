@@ -1,0 +1,72 @@
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #0E2439;
+	font-family: Roboto-Regular, sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: Roboto-Bold;
+ src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+ font-family: Roboto-Regular;
+ src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+ font-family: Roboto-Medium;
+ src: url(fonts/Roboto-Medium.ttf);
+}
+
+
+a.btn {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 50px;
+	border: 1px solid #e4cc6f;
+	border-radius: 30px;
+	background: #e4cc6f;
+	transition: .1s ease-out;
+	display: inline-block;
+	font-size: 18px;
+}
+
+a.btn.noFill {
+	color: #fff;
+	background: rgba(228, 204, 111, .1);
+}
+
+a.btn:hover {
+	background: rgba(228, 204, 111, .1);
+	color: #fff;
+}
+
+a.btn.noFill:hover {
+	background: #e4cc6f;
+	color: #000;
+}
